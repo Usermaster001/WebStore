@@ -20,6 +20,7 @@
                 <th>Имя</th>
                 <th>Очество</th>
                 <th>Возраст</th>
+                <th></th>
             </tr>
             </thead>
 
@@ -32,13 +33,16 @@
                         <td>@employee.Name</td>
                         <td>@employee.Patronymic</td>
                         <td>@employee.Age</td>
+                        <td>
+                            <a href="~/Home/Employee/@employee.Id">click</a>
+                        </td>
                     </tr>
                 }
             </tbody>
         </table>
         
         <hr/>
-        <a href="/">Главнаяzz</a>
+        <a href="~/">Главная</a>
 
     </body>
 </html>
