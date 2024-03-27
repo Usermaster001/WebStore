@@ -1,7 +1,7 @@
-var builder = WebApplication.CreateBuilder(args);
+п»їvar builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-// Загрузка информации из файла конфигуриции
+// Р—Р°РіСЂСѓР·РєР° РёРЅС„РѕСЂРјР°С†РёРё РёР· С„Р°Р№Р»Р° РєРѕРЅС„РёРіСѓСЂРёС†РёРё
 
 var configuration = app.Configuration;
 
