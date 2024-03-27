@@ -26,5 +26,10 @@ public class HomeController : Controller
     {
         return View(__Empoyees);
     }
+
+    public IActionResult Employee(string[] employee)
+    {
+        return View(employee);
+    }
 }
 
