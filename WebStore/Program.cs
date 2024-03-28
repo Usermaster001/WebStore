@@ -20,7 +20,7 @@ var app = builder.Build(); // Сборка приложения
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
-}
+}    
 
 app.UseStaticFiles(/*new StaticFileOptions {ServeUnknownFileTypes = true}*/);
 
